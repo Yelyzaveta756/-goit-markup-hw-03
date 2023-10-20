@@ -56,6 +56,13 @@ button {
 
 /* HEADER */
 
+.container-main {
+    display: flex;
+}
+.main-navigation {
+    display: flex; 
+    align-items: center; 
+}
 .page-header {
     border-bottom: 1px solid #E7E9FC;
 }
@@ -67,6 +74,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logotype-span {
@@ -80,7 +88,16 @@ button {
 }
 
 .navigation-list {
-    display: inline-block;
+    display: flex;
+    padding: 24px 0 
+}
+
+.navigation-item {
+    margin-right: 40px
+}
+
+.navigation-item:last-child {
+    margin-right: 0;
 }
 .navigation-link {
     font-size: 16px;
@@ -99,7 +116,11 @@ button {
 .address {
     font-style: normal; 
 }
+.address-list {
+    display: flex;
+    gap: 40px;
 
+}
 .address-link {
     font-size: 16px;
     font-style: normal;
