@@ -48,8 +48,17 @@ button {
     overflow: hidden;
   }
 
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
 .logotype {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -70,6 +79,9 @@ button {
     color: #2E2F42;
 }
 
+.navigation-list {
+    display: inline-block;
+}
 .navigation-link {
     font-size: 16px;
     font-weight: 500;
@@ -77,6 +89,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 
 .navigation-link:hover,
 .navigation-link:focus {
@@ -95,6 +108,7 @@ button {
     letter-spacing: 0.02em;
     color:#434455;
 }
+
 
 .address-link:hover,
 .address-link:focus {
